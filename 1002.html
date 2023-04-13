@@ -1,0 +1,20 @@
+<html>
+<head>
+
+</head>
+    <body>
+
+    <script>
+        var input = require('fs').readFileSync('/dev/stdin', 'utf-8');
+        var lines = input.split('\n');
+
+        let PI = 3.14159;  raio = 0.0; area = 0.0;
+
+        raio = parseFloat(lines.shift());
+
+        area = PI * (raio * raio);
+
+        console.log("A=" + area.toFixed(4));
+        </script>
+    </body>
+</html>

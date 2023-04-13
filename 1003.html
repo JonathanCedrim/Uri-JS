@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            var input = require('fs').readFileSync('/dev/stdin', 'utf-8');
+            var lines = input.split('\n');
+
+            let A = 0; B = 0;
+
+            A = parseInt(lines.shift());
+            B = parseInt(lines.shift());
+            
+            console.log("SOMA = " + ( A + B));
+        </script>
+    </body>
+    <footer>
+
+    </footer>
+</html>
